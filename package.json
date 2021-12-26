@@ -1,0 +1,30 @@
+{
+  "name": "@ppzp/style",
+  "version": "0.0.0",
+  "description": "一些常用的样式",
+  "files": [
+    "index.css",
+    "button.css",
+    "hr.css"
+  ],
+  "scripts": {
+    "compile": "stylus ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppz-pro/style.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppz-pro/style/issues"
+  },
+  "homepage": "https://github.com/ppz-pro/style#readme",
+  "dependencies": {
+    "@ppzp/stylus": "0.0.0"
+  },
+  "devDependencies": {
+    "stylus": "^0.56.0"
+  }
+}
