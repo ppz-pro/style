@@ -21,10 +21,8 @@
     "url": "https://github.com/ppz-pro/style/issues"
   },
   "homepage": "https://github.com/ppz-pro/style#readme",
-  "dependencies": {
-    "@ppzp/stylus": "0.0.0"
-  },
   "devDependencies": {
+    "@ppzp/stylus": "0.0.1",
     "stylus": "^0.56.0"
   }
 }
