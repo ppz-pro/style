@@ -4,27 +4,42 @@
   user-select: none
   display: inline-block
   cursor: pointer
+  &:active
+    opacity: .8
 
 button.btn
-  line-height: 1
-  padding: .6rem 1rem
+  font-family: inherit
   border: none
   outline: none
-  border-radius: .26rem
-  &:not(.strong)
-    background-color: text(a: .05)
+  &:not(.link)
+    line-height: 1
+    font-size: .9rem
+    padding: .6rem 1rem
+    border-radius: .26rem
+    &:not(.strong)
+      background-color: text(a: .05)
+      &:not(.danger)
+        color: primary()
+      &.danger
+        color: danger()
+    &.strong
+      color: n-text()
+      &:not(.danger)
+        background-color: primary()
+      &.danger
+        background-color: danger()
+  &.link
+    line-height: inherit
+    font-size: 1rem
+    background-color: transparent
+    padding: 0
     &:not(.danger)
       color: primary()
     &.danger
       color: danger()
-  &.strong
-    color: n-text()
-    &:not(.danger)
-      background-color: primary()
-    &.danger
-      background-color: danger()
 
 a.btn
+  font-size: 1rem
   text-decoration: none
   &:not(.danger)
     color: primary()
