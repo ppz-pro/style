@@ -1,7 +1,8 @@
 {
   "name": "@ppzp/style",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "一些常用的样式",
+  "main": "index.css",
   "files": [
     "index.css",
     "button.css",
